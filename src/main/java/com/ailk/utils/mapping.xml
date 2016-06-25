@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Mapping DTD Version 1.0//EN" "http://castor.org/mapping.dtd">
+
+<mapping>
+	<class name="com.ailk.utils.Clazz">
+		<map-to xml="Root" />
+		<field name="name" type="java.lang.String">
+			<bind-xml name="name" node="attribute" />
+		</field>
+		<field name="fields" type="com.ailk.utils.Field" collection="arraylist">
+			<bind-xml name="field" node="element" location="fields" />
+		</field>
+		<field name="constructors" type="com.ailk.utils.Constructor" collection="arraylist">
+			<bind-xml name="constructor" node="element" location="constructors" />
+		</field>
+		<field name="methods" type="com.ailk.utils.Method" collection="arraylist">
+			<bind-xml name="method" node="element" location="methods" />
+		</field>
+	</class>
+	<class name="com.ailk.utils.Field">
+		<field name="name" type="java.lang.String">
+			<bind-xml name="name" node="element" />
+		</field>
+		<field name="signature" type="java.lang.String">
+			<bind-xml name="signature" node="element" />
+		</field>
+		<field name="description" type="java.lang.String">
+			<bind-xml name="description" node="element" />
+		</field>
+	</class>
+	<class name="com.ailk.utils.Constructor">
+		<field name="name" type="java.lang.String">
+			<bind-xml name="name" node="element" />
+		</field>
+		<field name="signature" type="java.lang.String">
+			<bind-xml name="signature" node="element" />
+		</field>
+		<field name="description" type="java.lang.String">
+			<bind-xml name="description" node="element" />
+		</field>
+	</class>
+	<class name="com.ailk.utils.Method">
+		<field name="name" type="java.lang.String">
+			<bind-xml name="name" node="element" />
+		</field>
+		<field name="signature" type="java.lang.String">
+			<bind-xml name="signature" node="element" />
+		</field>
+		<field name="description" type="java.lang.String">
+			<bind-xml name="description" node="element" />
+		</field>
+	</class>
+</mapping>

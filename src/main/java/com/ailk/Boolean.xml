@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root name="java.lang.Boolean">
+    <fields>
+        <field>
+            <name>TRUE</name>
+            <signature><![CDATA[public static final&nbsp;Boolean TRUE]]></signature>
+            <description><![CDATA[The Boolean object corresponding to the primitive
+ value true.]]></description>
+        </field>
+        <field>
+            <name>FALSE</name>
+            <signature><![CDATA[public static final&nbsp;Boolean FALSE]]></signature>
+            <description><![CDATA[The Boolean object corresponding to the primitive
+ value false.]]></description>
+        </field>
+        <field>
+            <name>TYPE</name>
+            <signature><![CDATA[public static final&nbsp;Class&lt;Boolean&gt; TYPE]]></signature>
+            <description><![CDATA[The Class object representing the primitive type boolean.<dl><dt><span class="strong">Since:</span></dt>
+  <dd>JDK1.1</dd></dl>]]></description>
+        </field>
+    </fields>
+    <constructors>
+        <constructor>
+            <name>Boolean</name>
+            <signature><![CDATA[public&nbsp;Boolean(boolean&nbsp;value)]]></signature>
+            <description><![CDATA[Allocates a Boolean object representing the
+ value argument.
+
+ Note: It is rarely appropriate to use this constructor.
+ Unless a new instance is required, the static factory
+ valueOf(boolean) is generally a better choice. It is
+ likely to yield significantly better space and time performance.<dl><dt><span class="strong">Parameters:</span></dt><dd><code>value</code> - the value of the <code>Boolean</code>.</dd></dl>]]></description>
+        </constructor>
+        <constructor>
+            <name>Boolean</name>
+            <signature><![CDATA[public&nbsp;Boolean(String&nbsp;s)]]></signature>
+            <description><![CDATA[Allocates a Boolean object representing the value
+ true if the string argument is not null
+ and is equal, ignoring case, to the string "true".
+ Otherwise, allocate a Boolean object representing the
+ value false. Examples:
+ new Boolean("True") produces a Boolean object
+ that represents true.
+ new Boolean("yes") produces a Boolean object
+ that represents false.<dl><dt><span class="strong">Parameters:</span></dt><dd><code>s</code> - the string to be converted to a <code>Boolean</code>.</dd></dl>]]></description>
+        </constructor>
+    </constructors>
+    <methods>
+        <method>
+            <name>parseBoolean</name>
+            <signature><![CDATA[public static&nbsp;boolean&nbsp;parseBoolean(String&nbsp;s)]]></signature>
+            <description><![CDATA[Parses the string argument as a boolean.  The boolean
+ returned represents the value true if the string argument
+ is not null and is equal, ignoring case, to the string
+ "true". 
+ Example: Boolean.parseBoolean("True") returns true.
+ Example: Boolean.parseBoolean("yes") returns false.<dl><dt><span class="strong">Parameters:</span></dt><dd><code>s</code> - the <code>String</code> containing the boolean
+                 representation to be parsed</dd>
+<dt><span class="strong">Returns:</span></dt><dd>the boolean represented by the string argument</dd><dt><span class="strong">Since:</span></dt>
+  <dd>1.5</dd></dl>]]></description>
+        </method>
+        <method>
+            <name>booleanValue</name>
+            <signature><![CDATA[public&nbsp;boolean&nbsp;booleanValue()]]></signature>
+            <description><![CDATA[Returns the value of this Boolean object as a boolean
+ primitive.<dl><dt><span class="strong">Returns:</span></dt><dd>the primitive <code>boolean</code> value of this object.</dd></dl>]]></description>
+        </method>
+        <method>
+            <name>valueOf</name>
+            <signature><![CDATA[public static&nbsp;Boolean&nbsp;valueOf(boolean&nbsp;b)]]></signature>
+            <description><![CDATA[Returns a Boolean instance representing the specified
+ boolean value.  If the specified boolean value
+ is true, this method returns Boolean.TRUE;
+ if it is false, this method returns Boolean.FALSE.
+ If a new Boolean instance is not required, this method
+ should generally be used in preference to the constructor
+ Boolean(boolean), as this method is likely to yield
+ significantly better space and time performance.<dl><dt><span class="strong">Parameters:</span></dt><dd><code>b</code> - a boolean value.</dd>
+<dt><span class="strong">Returns:</span></dt><dd>a <code>Boolean</code> instance representing <code>b</code>.</dd><dt><span class="strong">Since:</span></dt>
+  <dd>1.4</dd></dl>]]></description>
+        </method>
+        <method>
+            <name>valueOf</name>
+            <signature><![CDATA[public static&nbsp;Boolean&nbsp;valueOf(String&nbsp;s)]]></signature>
+            <description><![CDATA[Returns a Boolean with a value represented by the
+ specified string.  The Boolean returned represents a
+ true value if the string argument is not null
+ and is equal, ignoring case, to the string "true".<dl><dt><span class="strong">Parameters:</span></dt><dd><code>s</code> - a string.</dd>
+<dt><span class="strong">Returns:</span></dt><dd>the <code>Boolean</code> value represented by the string.</dd></dl>]]></description>
+        </method>
+        <method>
+            <name>toString</name>
+            <signature><![CDATA[public static&nbsp;String&nbsp;toString(boolean&nbsp;b)]]></signature>
+            <description><![CDATA[Returns a String object representing the specified
+ boolean.  If the specified boolean is true, then
+ the string "true" will be returned, otherwise the
+ string "false" will be returned.<dl><dt><span class="strong">Parameters:</span></dt><dd><code>b</code> - the boolean to be converted</dd>
+<dt><span class="strong">Returns:</span></dt><dd>the string representation of the specified <code>boolean</code></dd><dt><span class="strong">Since:</span></dt>
+  <dd>1.4</dd></dl>]]></description>
+        </method>
+        <method>
+            <name>toString</name>
+            <signature><![CDATA[public&nbsp;String&nbsp;toString()]]></signature>
+            <description><![CDATA[Returns a String object representing this Boolean's
+ value.  If this object represents the value true,
+ a string equal to "true" is returned. Otherwise, a
+ string equal to "false" is returned.<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="#">toString</a></code>&nbsp;in class&nbsp;<code><a href="#">Object</a></code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>a string representation of this object.</dd></dl>]]></description>
+        </method>
+        <method>
+            <name>hashCode</name>
+            <signature><![CDATA[public&nbsp;int&nbsp;hashCode()]]></signature>
+            <description><![CDATA[Returns a hash code for this Boolean object.<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="#">hashCode</a></code>&nbsp;in class&nbsp;<code><a href="#">Object</a></code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>the integer <code>1231</code> if this object represents
+ <code>true</code>; returns the integer <code>1237</code> if this
+ object represents <code>false</code>.</dd><dt><span class="strong">See Also:</span></dt><dd><a href="#"><code>Object.equals(java.lang.Object)</code></a>, 
+<a href="#"><code>System.identityHashCode(java.lang.Object)</code></a></dd></dl>]]></description>
+        </method>
+        <method>
+            <name>equals</name>
+            <signature><![CDATA[public&nbsp;boolean&nbsp;equals(Object&nbsp;obj)]]></signature>
+            <description><![CDATA[Returns true if and only if the argument is not
+ null and is a Boolean object that
+ represents the same boolean value as this object.<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="#">equals</a></code>&nbsp;in class&nbsp;<code><a href="#">Object</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>obj</code> - the object to compare with.</dd>
+<dt><span class="strong">Returns:</span></dt><dd><code>true</code> if the Boolean objects represent the
+          same value; <code>false</code> otherwise.</dd><dt><span class="strong">See Also:</span></dt><dd><a href="#"><code>Object.hashCode()</code></a>, 
+<a href="#"><code>HashMap</code></a></dd></dl>]]></description>
+        </method>
+        <method>
+            <name>getBoolean</name>
+            <signature><![CDATA[public static&nbsp;boolean&nbsp;getBoolean(String&nbsp;name)]]></signature>
+            <description><![CDATA[Returns true if and only if the system property
+ named by the argument exists and is equal to the string
+ "true". (Beginning with version 1.0.2 of the
+ JavaTM platform, the test of
+ this string is case insensitive.) A system property is accessible
+ through getProperty, a method defined by the
+ System class.
+ 
+ If there is no property with the specified name, or if the specified
+ name is empty or null, then false is returned.<dl><dt><span class="strong">Parameters:</span></dt><dd><code>name</code> - the system property name.</dd>
+<dt><span class="strong">Returns:</span></dt><dd>the <code>boolean</code> value of the system property.</dd><dt><span class="strong">See Also:</span></dt><dd><a href="#"><code>System.getProperty(java.lang.String)</code></a>, 
+<a href="#"><code>System.getProperty(java.lang.String, java.lang.String)</code></a></dd></dl>]]></description>
+        </method>
+        <method>
+            <name>compareTo</name>
+            <signature><![CDATA[public&nbsp;int&nbsp;compareTo(Boolean&nbsp;b)]]></signature>
+            <description><![CDATA[Compares this Boolean instance with another.<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="#">compareTo</a></code>&nbsp;in interface&nbsp;<code><a href="#">Comparable</a>&lt;<a href="#">Boolean</a>&gt;</code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>b</code> - the <code>Boolean</code> instance to be compared</dd>
+<dt><span class="strong">Returns:</span></dt><dd>zero if this object represents the same boolean value as the
+          argument; a positive value if this object represents true
+          and the argument represents false; and a negative value if
+          this object represents false and the argument represents true</dd>
+<dt><span class="strong">Throws:</span></dt>
+<dd><code><a href="#">NullPointerException</a></code> - if the argument is <code>null</code></dd><dt><span class="strong">Since:</span></dt>
+  <dd>1.5</dd>
+<dt><span class="strong">See Also:</span></dt><dd><a href="#"><code>Comparable</code></a></dd></dl>]]></description>
+        </method>
+        <method>
+            <name>compare</name>
+            <signature><![CDATA[public static&nbsp;int&nbsp;compare(boolean&nbsp;x,
+          boolean&nbsp;y)]]></signature>
+            <description><![CDATA[Compares two boolean values.
+ The value returned is identical to what would be returned by:
+ 
+    Boolean.valueOf(x).compareTo(Boolean.valueOf(y))
+ <dl><dt><span class="strong">Parameters:</span></dt><dd><code>x</code> - the first <code>boolean</code> to compare</dd><dd><code>y</code> - the second <code>boolean</code> to compare</dd>
+<dt><span class="strong">Returns:</span></dt><dd>the value <code>0</code> if <code>x == y</code>;
+         a value less than <code>0</code> if <code>!x &amp;&amp; y</code>; and
+         a value greater than <code>0</code> if <code>x &amp;&amp; !y</code></dd><dt><span class="strong">Since:</span></dt>
+  <dd>1.7</dd></dl>]]></description>
+        </method>
+    </methods>
+</Root>

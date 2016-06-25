@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Mapping DTD Version 1.0//EN" "http://castor.org/mapping.dtd">
+
+<mapping>
+	<class name="com.ailk.wenda.Selector">
+		<map-to xml="Root" />
+		<field name="q" type="java.lang.String">
+			<bind-xml name="q" node="element" />
+		</field>
+		<field name="level" type="java.lang.String">
+			<bind-xml name="level" node="element" />
+		</field>
+		<field name="correctAns" type="java.lang.Integer">
+			<bind-xml name="correctAns" node="element" />
+		</field>
+		<field name="a" type="java.lang.String" collection="arraylist">
+			<bind-xml name="opid" node="element" location="opids" />
+		</field>
+	</class>
+</mapping>

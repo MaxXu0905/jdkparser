@@ -1,0 +1,300 @@
+{"q":"设有定义int m\u003d1,n\u003d6; 赋值使m为8的语句是","a":["m \u003d (n++) + 1;","m +\u003d n\u003d\u003d6?1:0;","m +\u003d n++;","m \u003d 1 + (++n);"],"correctAns":-1,"score":0.0,"total":0.0}
+{"q":"设有以下定义语句： struct student { int num; char name[10]; float score; } wang,zhang; 则不正确的叙述是（ ）。","a":["zhang是结构体变量名","wang是结构体类型名","struct是结构体类型的关键字","num，name，score都是结构体类型student的成员名"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"下面四个选项中,均是不合法的整型常量的选项是:","a":["一018     999     5e2","一一0f1 一0xffff 0011","一0x48eg 一068 03f","一0Xcdf 017 12,456"],"correctAns":2,"grade":"b","score":-12.0,"total":0.0}
+{"q":"数组下标可以是整型表达式。","a":["正确","错误"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"关于C语言的源程序的叙述中，错误的是","a":["C语言的源程序由函数构成","必须包含有输入语句","一行可以书写多个语句","main函数可以书写在自定义函数之后"],"correctAns":1,"grade":"b","score":-14.0,"total":12.0}
+{"q":"#define INT int*\u003cbr /\u003e\u003cbr /\u003eint main(int argc,char *argv[])\u003cbr /\u003e{\u003cbr /\u003e\u0026nbsp; \u0026nbsp; INT p1,p2;\u003cbr /\u003e\u0026nbsp; \u0026nbsp; int \u0026nbsp;a\u003d1;\u003cbr /\u003e\u003cbr /\u003e\u0026nbsp; \u0026nbsp; p1\u003d\u0026amp;a;\u003cbr /\u003e\u0026nbsp; \u0026nbsp; p2\u003dp1;\u003cbr /\u003e\u0026nbsp; \u0026nbsp; *p1 \u003d 2；\u003cbr /\u003e\u0026nbsp; \u0026nbsp; printf(\"%d,%dn\",*p1,*p2);\u003cbr /\u003e\u0026nbsp; \u0026nbsp; return 0;\u003cbr /\u003e}\u003cbr /\u003e","a":["程序错误","1,1","2,1"],"correctAns":0,"grade":"b","score":28.0,"total":40.0}
+{"q":"C语言对if嵌套语句的规定：else总是与（  ）配对。","a":["之前最近的if","缩进位置相同的if","第一个if","之前最近的且尚未配对的if"],"correctAns":3,"grade":"b","score":-14.0,"total":26.0}
+{"q":"已知：int a[4][3]\u003d{1,2,3,4,5,6,7,8,9,10,11,12}；int (*ptr)[3]\u003da,*p\u003da[0]；则以下能够正确表示数组元素a[1][2]的表达式是 （ ）。","a":["*((ptr+1)[2])","(*ptr+1)+2","*(*(p+5))","*(*(a+1)+2)"],"correctAns":3,"grade":"b","score":-12.0,"total":14.0}
+{"q":"数组名表示的是","a":["数组每个元素中的值","数组的首地址","数组的长度","数组每一个元素的地址"],"correctAns":1,"grade":"b","score":-14.0,"total":0.0}
+{"q":"程序运行时不做数组下标越界检查。","a":["正确","错误"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"循环结束后，count 的值是（ ） count\u003d1; while(count\u0026lt;\u003d145) { a\u003da+7; count++; }","a":["144","146","145","1"],"correctAns":1,"grade":"b","score":-14.0,"total":12.0}
+{"q":"对表达式for（表达式1; ;表达式3）可理解为","a":["for（表达式1;表达式3;表达式3）","for（表达式1;1;表达式3）","for（表达式1;表达式1;表达式3）","for（表达式1;0;表达式3）"],"correctAns":1,"grade":"b","score":-13.0,"total":0.0}
+{"q":"程序段：int i\u003d8,j\u003d10; printf(\"%d,%d,%d,%dn\",i,j,++i,j++); 其结果9,11,9,10.","a":["正确","错误"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"存放某个指针变量的地址值的变量称为指向指针的指针，即二级指针。","a":["正确","错误"],"correctAns":0,"grade":"b","score":25.0,"total":51.0}
+{"q":"若有定义：int x,a;则语句x\u003d(a\u003d3,a+1);运行后，x、a的值依次为（ ）。","a":["3,3","4,4","3,4","4,3"],"correctAns":3,"grade":"b","score":-14.0,"total":37.0}
+{"q":"如果希望向文件的末尾添加新的数据，可以选择“W+”方式打开文件 （ ）。","a":["错误","正确"],"correctAns":0,"grade":"b","score":25.0,"total":62.0}
+{"q":"下列运算符中哪一个不能作为单目运算符( ) ？","a":["*","-","+","/"],"correctAns":3,"grade":"b","score":-16.0,"total":46.0}
+{"q":"将三个数排序需要至少比较（　 ）次。","a":["4","2","3","不确定"],"correctAns":2,"grade":"b","score":-15.0,"total":31.0}
+{"q":"设正x、y均为整型变量，且x\u003d10 y\u003d3，则以下语句的输出结果是 3printf(\u0026quot;%d\u0026quot;,x%y);","a":["正确","错误"],"correctAns":1,"grade":"b","score":-13.0,"total":18.0}
+{"q":"int main (void) {\u0026nbsp;\u003cbr /\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp; int a \u003d 10;\u0026nbsp;\u003cbr /\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp; printf (\"%d\", a++ + ++a);\u0026nbsp;\u0026nbsp;\u003cbr /\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp; return 0;\u003cbr /\u003e}的输出为\u003cbr /\u003e","a":["21","23","22","20"],"correctAns":2,"grade":"b","score":-12.0,"total":6.0}
+{"q":"switch语句中，default子句只能放在最后。","a":["错误","正确"],"correctAns":0,"grade":"b","score":25.0,"total":31.0}
+{"q":"C语言中，两个浮点型数据可以进行精确比较。","a":["错误","正确"],"correctAns":0,"grade":"b","score":24.0,"total":55.0}
+{"q":"若执行fopen（）发生错误，函数的返回值是（    ）","a":["NULL","EOF","1","地址值"],"correctAns":0,"grade":"b","score":23.0,"total":78.0}
+{"q":"C语言认为名为Student和student的变量是不同变量。","a":["正确","错误"],"correctAns":0,"grade":"b","score":21.0,"total":99.0}
+{"q":"变量说明语句int a\u003db\u003dc\u003d23;是正确的。","a":["错误","正确"],"correctAns":0,"grade":"b","score":20.0,"total":119.0}
+{"q":"若定义：int a\u003d511,*b\u003d\u0026amp;a;则printf(\u0026quot;%dn\u0026quot;,*b);的输出结果是（    ）","a":["无确定值","512","a的地址","511"],"correctAns":3,"grade":"b","score":-18.0,"total":101.0}
+{"q":"以下程序的可执行文件名是file.exe。 \u003cbr /\u003emain(int argc,char * argv[]) \u003cbr /\u003e{ int i; for(i\u003d2;i\u0026lt;argc;i++) \u003cbr /\u003eprintf(\"%s%c\",argv[i],(i\u0026lt;argc-1)?\u0027 \u0027:\u0027n\u0027); } \u003cbr /\u003e在DOS命令行输入：file My C Language and Programming\u0026lt;回车\u0026gt;，其输出结果是（ ）。","a":["My C Language and Programming","MyCLanguageandProgramming","file My C Language and Programming","C Language and Programming"],"correctAns":3,"grade":"b","score":-14.0,"total":87.0}
+{"q":"putchar(getchar()) 是合法的表达式。","a":["正确","错误"],"correctAns":0,"grade":"b","score":20.0,"total":107.0}
+{"q":"已知int x\u003d5,y\u003d5,z\u003d5；执行语句x%\u003dy+z；后，x的值是____。","a":["5","1","6","0"],"correctAns":0,"grade":"b","score":20.0,"total":127.0}
+{"q":"下面的for语句for(x\u003d0,y\u003d10；(y\u0026gt;0)\u0026amp;\u0026amp;(x\u0026lt;4)；x++,y-- ) ；","a":["循环次数不定","循环执行4次","循环执行3次","是无限循环"],"correctAns":1,"grade":"b","score":-19.0,"total":108.0}
+{"q":"若有定义:char a[]\u003d\u0026quot;abcdef\u0026quot;;char b[]\u003d\u0026quot;xyz\u0026quot;;则以下程序段运行后屏幕输出为（ ）。strcpy(a,b);printf(\u0026quot;%c\u0026quot;,a[2]);","a":["c","z","d","\\0"],"correctAns":1,"grade":"b","score":-16.0,"total":92.0}
+{"q":"某结构体定义为\u003cbr /\u003estruct student{int num; int score ;char name[10];}stu;\u003cbr /\u003ep为指向结构体stu的指针，则下列的成员访问方式中错误的是（ ）。","a":["p.score","stu.num","p-\u0026gt;score","stu.name"],"correctAns":0,"grade":"b","score":23.0,"total":115.0}
+{"q":"若有以下的定义：int t[3][2]；则 t数组最后一个元素是","a":["t[2]","t[3][2]","t[2][1]","t[2][3]"],"correctAns":2,"grade":"b","score":-18.0,"total":97.0}
+{"q":"设有定义FILE *fp; 将整数n以文本方式写到fp文件的语句是()。","a":["fp \u003d fopen( \u0026quot;file.txt\u0026quot;, \u0026quot;w\u0026quot; );","fwrite( \u0026amp;n, sizeof(int), 1, fp );","fprintf( fp, \u0026quot;%d\u0026quot;, n );","fclose(fp)"],"correctAns":1,"grade":"b","score":-16.0,"total":81.0}
+{"q":"设有以下定义和语句，struct student　\u003cbr/\u003e{ \u003cbr/\u003eint num,age;　\u003cbr/\u003e};\u003cbr/\u003estruct student stu[3]\u003d{{1,20},{2,21},{3,19}};\u003cbr/\u003estruct student *p\u003dstu;\u003cbr/\u003e则以下错误的引用是（    ）","a":["p\u003d\u0026amp;stu.age","(p++)-\u0026gt;num","(*p).num","p++"],"correctAns":0,"grade":"b","score":23.0,"total":104.0}
+{"q":"已知：char a；int b；float c；double d；执行语句\"c\u003da+b+c+d；\"后，变量c的数据类型是 。","a":["int","double","float","char"],"correctAns":2,"grade":"b","score":-16.0,"total":88.0}
+{"q":"设a为整数，则“a是奇数”用C++语言描述为（  ）。","a":["a/2\u003d\u003d0","a%2\u003d\u003d0","a%2!\u003d0","a/2\u003d\u003d1"],"correctAns":2,"grade":"b","score":-16.0,"total":72.0}
+{"q":"（ ）不是C语言的关系运算符。","a":["!\u003d","\u0026lt;","\u003d\u003d","\u0026amp;\u0026amp;"],"correctAns":3,"grade":"b","score":-16.0,"total":56.0}
+{"q":"设int i\u003d2,j\u003d1,k\u003d3;则printf(\"%d\",i\u0026amp;\u0026amp;(i+j)\u0026amp;k|i+j);的输出值是","a":["2","3","0","1"],"correctAns":3,"grade":"b","score":-15.0,"total":41.0}
+{"q":"C语言中，文件都是以ASCII码形式存储。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-15.0,"total":26.0}
+{"q":"定义多维数组时，必须指定每一维的长度。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-14.0,"total":12.0}
+{"q":"定义int *swap()指的是（     ）","a":["以上说法均错","指一个返回指向整型值指针的函数swap","指一个返回整型值的函数swap","指一个指向函数swap()的指针，函数返回一个整型值"],"correctAns":1,"grade":"b","score":-13.0,"total":0.0}
+{"q":"如果int a\u003d1,b\u003d2,c\u003d3,d\u003d4；则条件表达式\"a\u0026lt;b?a:c\u0026lt;d?c:d\"的值是","a":["4","1","2","3"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"若有定义：int a\u003d16,b\u003d10,c;,执行语句c\u003da/b;后，c的值为（）","a":["0","1.4","2","1"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"若有定义:int a\u003d2;则语句a\u003dstrcmp(\u0026quot;miss\u0026quot;,\u0026quot;miss\u0026quot;);运行后a的值为（ ）。","a":["2","1","-1","0"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"以下（ ）能将数组元素初始化为10,20和30?","a":["int data[3]\u003d{10,20,30};","两者都可以","int data[ ]\u003d{10,20,30};"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"已知在ASCII代码中，字母A的序号为65，以下程序的输出的结果是 #include \u0026lt;stdio.h\u0026gt; main() { char c1\u003d\u0027A\u0027, c2\u003d\u0027Y\u0027; printf(\"%d,%dn\",c1,c2); }","a":["65，89","65，90","A，Y","因输出格式不合法，输出错误信息"],"correctAns":0,"grade":"b","score":28.0,"total":28.0}
+{"q":"C语言中下列运算符的操作数必须是int型的运算是","a":["--","++","/","%"],"correctAns":3,"grade":"b","score":-13.0,"total":15.0}
+{"q":"float data[75]; 则数组元素下标的合法范围是 (    )。","a":["0-75","0-74","1-74","1 -75"],"correctAns":1,"grade":"b","score":-13.0,"total":2.0}
+{"q":"若i为整型变量,则以下循环执行次数是: for ( i\u003d2; i!\u003d0; ) printf(\"%d\",i- - );","a":["1 次","0次","无限次","2次"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"C语言中，文件存取是以字节为单位的。","a":["错误","正确"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"将空格符赋给字符变量c，正确的赋值语句是____。","a":["c\u003dNULL","c\u003d’\\0’","c\u003d32","c\u003d0"],"correctAns":2,"grade":"b","score":-12.0,"total":0.0}
+{"q":"若有以下定义: char s[20]\u003d\u0026quot;programming\u0026quot;,*ps\u003ds;则不能代表字符o的表达式是","a":["ps+\u003d2,*ps","ps[2]","s[2]","ps+2"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"声明基本整型变量时，应使用关键字（  ）。","a":["float","int","long","double"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"若希望当a的值为奇数时,表达式的值为\"真\",a的值为偶数时,表达式的值为\"假\"。则不能满足要求的表达式是（ ）。","a":["a%2","!(a%2\u003d\u003d0)","!(a%2)","a%2\u003d\u003d1"],"correctAns":2,"grade":"b","score":-11.0,"total":0.0}
+{"q":"main函数可调用其它函数，但是其它函数不能调用main函数","a":["正确","错误"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"设有程序段 int k\u003d10; while（k\u003d\u003d0）k\u003dk-1; 则下面描述中正确的是","a":["循环体语句执行一次","while循环执行10次","循环是无限循环","循环体语句一次也不执行"],"correctAns":3,"grade":"b","score":-13.0,"total":13.0}
+{"q":"对二维数组的正确说明是____。","a":["int a[2][]\u003d{1,2,3,4,5,6}；","int a[][]\u003d{1,2,3,4,5,6}；","int a[2,3]\u003d{1,2,3,4,5,6}；","int a[][3]\u003d{1,2,3,4,5,6}；"],"correctAns":3,"grade":"b","score":-13.0,"total":0.0}
+{"q":"函数test定义如下： int test(float val) { if (val\u0026gt;2.0) return 3*val; else return 0; } \u003cbr /\u003etest(4.2)的值是（ ）?","a":["12","12.6","0","0"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"已知：int x[ ]\u003d{ 1,3,5,7,9,11 }，*ptr\u003dx；则能够正确引用数组元素的语句是（  ） 。","a":["x","*(ptr--)","x[6]","*(--ptr)"],"correctAns":1,"grade":"b","score":-13.0,"total":13.0}
+{"q":"设已定义k为int整型变量，则有下面while循环执行(    )次\u003cbr/\u003ek\u003d10;\u003cbr/\u003ewhile(k\u003d0)k\u003dk-1;","a":["无限循环","一次也不执行","执行10次","执行一次"],"correctAns":1,"grade":"b","score":-12.0,"total":1.0}
+{"q":"要打开一个已存在的非空文件\"file\"用于修改，选择正确的语句＿＿＿＿。","a":["fp\u003dfopen(\u0026quot;file\u0026quot;, \u0026quot;r\u0026quot;)；","fp\u003dfopen(\u0026quot;file\u0026quot;, \u0026quot;a+\u0026quot;)；","fp\u003dfopen(’file\u0026quot;, \u0026quot;r+\u0026quot;)；","fp\u003dfopen(\u0026quot;file\u0026quot;, \u0026quot;w\u0026quot;)；"],"correctAns":2,"grade":"b","score":-12.0,"total":0.0}
+{"q":"fscanf函数的正确调用形式是 。","a":["fscanf (格式字符串, 输出列表, 文件指针)；","fscanf (格式字符串, 文件指针, 输出列表)；","fscanf (文件指针, 格式字符串, 输出列表)；","fscanf (文件指针, 格式字符串, 输入列表)；"],"correctAns":3,"grade":"b","score":-13.0,"total":0.0}
+{"q":"若有定义:int a[3][3];则表达式\u0026amp;a[2][1]-a的值为（ ）。","a":["9","6","8","7"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"假定指针p所指对象的值为25，p+1所指对象的值为42，则++*p的值为（  ）。","a":["25","26","43","42"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"C语言中，任何非零的数值都为“真”","a":["正确","错误"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"32位系统中，以下程序输出值为多少？\u003cbr /\u003e#include \u0026lt;stdio.h\u0026gt;\u003cbr /\u003eint main()\u003cbr /\u003e{\u003cbr /\u003e\u0026nbsp; \u0026nbsp; char *p;\u003cbr /\u003e\u0026nbsp; \u0026nbsp; printf(\"%d\", sizeof(p));\u003cbr /\u003e\u0026nbsp; \u0026nbsp; return 0;\u0026nbsp; \u0026nbsp; \u003cbr /\u003e}\u003cbr /\u003e","a":["1","4","8","2"],"correctAns":1,"grade":"b","score":-12.0,"total":14.0}
+{"q":"下面程序的输出是main(){ int y\u003d9;if(y%3\u003d\u003d0)printf(\u0026quot;%d\u0026quot;, y);}","a":["0","不确定的值","3","9"],"correctAns":3,"grade":"b","score":-13.0,"total":1.0}
+{"q":"C语言中放在\u0026quot;\u0026quot;之间的内容都被视为字符串的一个构成部分，都可以在屏幕上原样显示。","a":["错误","正确"],"correctAns":0,"grade":"b","score":27.0,"total":28.0}
+{"q":"下面四个选项中、均是正确的数值常量或字符常量的选项是:","a":["\u00273\u0027 ,011, 0xFF00,0xA","0.0,?0f, 8.9e?,?\u0027\u0026amp;\u0027","\u0026quot;a\u0026quot;?,3.9E-2.5?,lel    ,\u0027\\\u0027\u0027\u0027?","十001,0xabcd,2e2, 50."],"correctAns":0,"grade":"b","score":25.0,"total":53.0}
+{"q":"设k为整型变量，则下面while循环共执行( )次\u003cbr /\u003e\u0026nbsp;int k\u003d2; \u003cbr /\u003e\u0026nbsp;while(k!\u003d0){\u003cbr /\u003e\u0026nbsp;\u0026nbsp;printf(\"%d\",k);\u003cbr /\u003e\u0026nbsp;\u0026nbsp;k--; \u003cbr /\u003e\u0026nbsp;}\u003cbr /\u003e\u0026nbsp;printf(\"n\");","a":["2","0","无限多","1"],"correctAns":0,"grade":"b","score":24.0,"total":77.0}
+{"q":"如果p是指向某对象的指针，则（  ）表示该对象。","a":["p*","p","\u0026amp;p","*p"],"correctAns":3,"grade":"b","score":-16.0,"total":61.0}
+{"q":"语句while(E);中的条件E等价于","a":["E！\u003d0","E！\u003d1","E \u003d\u003d 0","~E"],"correctAns":0,"grade":"b","score":22.0,"total":83.0}
+{"q":"假设 x\u003d10, 下列表达式的值不为真的是？","a":["x\u003d\u003d10 \u0026amp;\u0026amp; x\u0026gt;10 || x","x\u003d\u003d10 \u0026amp;\u0026amp; x\u0026gt;10 ||! x","x\u003d\u003d10 || x\u0026gt;10 \u0026amp;\u0026amp; !x","x\u003d\u003d10 || x\u0026gt;10 || !x"],"correctAns":1,"grade":"b","score":-16.0,"total":67.0}
+{"q":"已知ch是字符型变量，则ch\u003d\u0026quot;\u0026quot;;是正确的赋值语句。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-16.0,"total":51.0}
+{"q":"若有定义:int a[5]\u003d{1,2,3,4,5};则语句a[1]\u003da[3]+a[2+2]-a[3-1];运行后a[1]的值为（ ）。","a":["5","1","2","6"],"correctAns":3,"grade":"b","score":-15.0,"total":36.0}
+{"q":"getchar函数在输入时跳过空格符。","a":["错误","正确"],"correctAns":0,"grade":"b","score":23.0,"total":59.0}
+{"q":"数组中的每一个元素相当于一个变量。若要让一个指针变量指向它，必须用“\u0026amp;数组元素”的方法向该指针变量赋值。","a":["错误","正确"],"correctAns":0,"grade":"b","score":25.0,"total":84.0}
+{"q":"设有说明int (*ptr)[m];其中的标识符ptr是","a":["一个指向具有M个整型元素的一维数组的指针","具有M个指针元素的一维指针数组，每个元素都只能指向整型量","M个指向整型变量的指针","指向M个整型变量的函数指针"],"correctAns":0,"grade":"b","score":21.0,"total":105.0}
+{"q":"函数只能有一个返回值。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-18.0,"total":87.0}
+{"q":"C语言对其数据在内存中所占用的实际字节数是有明确规定的。","a":["错误","正确"],"correctAns":0,"grade":"b","score":21.0,"total":108.0}
+{"q":"下列正确的八进制整型常量表示是（　 ）","a":["15","0a0","0x10","80"],"correctAns":0,"grade":"b","score":19.0,"total":127.0}
+{"q":"数组名实际上是此数组的首地址，所以数组名相当于一个指针变量。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-18.0,"total":109.0}
+{"q":"设有定义char c;且c表示一个小写字母，结果为对应大写字母的表达式是","a":["c - \u0027a\u0027 + \u0027A\u0027","c - A + a","c - a + A","c - \u0027A\u0027 + \u0027a\u0027"],"correctAns":0,"grade":"b","score":20.0,"total":129.0}
+{"q":"枚举变量的取值受到该枚举变量所对应的枚举常量的限制。","a":["正确","错误"],"correctAns":0,"grade":"b","score":19.0,"total":148.0}
+{"q":"C语言中，int类型数据占2个字节，则long 类型数据占多少个字节","a":["1","8","4","2"],"correctAns":2,"grade":"b","score":-19.0,"total":129.0}
+{"q":"函数定义void max(int a,int b)表示该函数的返回值不确定。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-19.0,"total":110.0}
+{"q":"如果初值表中的初值个数少于数组长度，那么C语言编译程序会自动把剩余的元素初始化为初值表中的最后一个值。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-16.0,"total":94.0}
+{"q":"描述一个函数所执行算法的过程称为（）。","a":["函数声明","函数调用","函数返回","函数定义"],"correctAns":3,"grade":"b","score":-17.0,"total":77.0}
+{"q":"表达式_ya是不合法的C语言标识符","a":["正确","错误"],"correctAns":1,"grade":"b","score":-16.0,"total":61.0}
+{"q":"表达式:10!\u003d9的值是（ ）","a":["true","0","非零值","1"],"correctAns":3,"grade":"b","score":-16.0,"total":45.0}
+{"q":"函数至少要有一个参数。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-15.0,"total":30.0}
+{"q":"设有如下定义: int x\u003d10,y\u003d3,z; 则语句 printf(\"%dn\",z\u003dx/y); 的输出结果是","a":["4","0","3","1"],"correctAns":2,"grade":"b","score":-13.0,"total":17.0}
+{"q":"如果strcmp(s1,s2)的返回值为一个负数，则表明字符串s1一定小于字符串s2","a":["正确","错误"],"correctAns":0,"grade":"b","score":26.0,"total":43.0}
+{"q":"相同结构体类型的变量可以相互赋值。","a":["正确","错误"],"correctAns":0,"grade":"b","score":23.0,"total":66.0}
+{"q":"合法的数组定义是","a":["int a[]\u003d\u0026quot;string\u0026quot;;","vhst s\u003d\u0026quot;string\u0026quot;;","int a[5]\u003d{0,1,2,3,4,5};","char a[]\u003d{0,1,2,3,4,5};"],"correctAns":3,"grade":"b","score":-16.0,"total":50.0}
+{"q":"若有定义：int b\u003d7; float a\u003d2.5,c\u003d4.7;则表达式a+(b/2*(int)(a+c)/2)%4的值是（ ）。","a":["4.5","5.5","2.5","3.5"],"correctAns":0,"grade":"b","score":23.0,"total":73.0}
+{"q":"break语句可用于程序的任何地方，以终止程序的执行。","a":["错误","正确"],"correctAns":0,"grade":"b","score":22.0,"total":95.0}
+{"q":"while循环的循环体可能一次也不会执行。","a":["错误","正确"],"correctAns":1,"grade":"b","score":-17.0,"total":78.0}
+{"q":"设有整型变量x,下述语句（  ）不会出现死循环。","a":["for(;;x+\u003d1);","while(1) {x++;}","for(x\u003d10;;x--);","for(;(x\u003dgetchar())!\u003d\u0027\\n\u0027;);"],"correctAns":3,"grade":"b","score":-16.0,"total":62.0}
+{"q":"选择出正确的说明语句(     )","a":["int A[3.6];","int *A[10];","int A[][];","int A[3,4];"],"correctAns":1,"grade":"b","score":-16.0,"total":46.0}
+{"q":"main() { int m\u003d10,n\u003d2;m+\u003dn;printf(\u0026quot;%Xn\u0026quot;,m);}程序的输出是","a":["12","2","C","99"],"correctAns":2,"grade":"b","score":-15.0,"total":31.0}
+{"q":"break语句和continue语句不可以同时出现在同一个循环体内。","a":["错误","正确"],"correctAns":0,"grade":"b","score":24.0,"total":55.0}
+{"q":"一个C语言程序总是从main主函数开始执行的","a":["正确","错误"],"correctAns":0,"grade":"b","score":23.0,"total":78.0}
+{"q":"若有定义int a[][3]\u003d{1,2,3,4,5,6,7,8,9};则表达式sizeof(a)/sizeof(a[0]) 的值为（ ）。","a":["4","9","3","5"],"correctAns":2,"grade":"b","score":-16.0,"total":62.0}
+{"q":"已知int x\u003d10,y\u003d20,z\u003d30; 以下语句执行后x, y, z的值是_______。 if (x\u0026gt;y) z\u003dx; x\u003dy; y\u003dz;","a":["x\u003d20, y\u003d30, z\u003d10","x\u003d20, y\u003d30, z\u003d20","x\u003d10, y\u003d20, z\u003d30","x\u003d20, y\u003d30, z\u003d30"],"correctAns":3,"grade":"b","score":-15.0,"total":47.0}
+{"q":"关于if语句中，条件表达式只能是关系表达式或逻辑表达式","a":["错误","正确"],"correctAns":0,"grade":"b","score":24.0,"total":71.0}
+{"q":"下关于运算符优先顺序的描述中正确的是一一一","a":["逻辑 运算符\u0026lt; 关系运算符\u0026lt; 算术运算符\u0026lt; 赋值运算符","关系运算符\u0026lt; 算术运算符\u0026lt; 赋值运算符\u0026lt; 逻辑与运算符","赋值运算符\u0026lt; 逻辑与运算符\u0026lt; 关系运算符\u0026lt; 算术运算符","算术运算符\u0026lt; 关系运算符\u0026lt; 赋值运算符\u0026lt; 逻辑与运算符"],"correctAns":2,"grade":"b","score":-16.0,"total":55.0}
+{"q":"\"abcd\"+3","a":["\u0026amp;b","c","非法","\u0026amp;a","\u0026amp;c","b","d","a"],"correctAns":6,"grade":"b","score":-16.0,"total":39.0}
+{"q":"有以下程序#include \u0026lt;stdio.h\u0026gt;main(){char *a[]\u003d{\u0026quot;abcd\u0026quot;,\u0026quot;ef\u0026quot;,\u0026quot;gh\u0026quot;,\u0026quot;ijk\u0026quot;};int i;for（i\u003d0;i\u0026lt;4;i++）printf(\u0026quot;%c\u0026quot;,*a[i]);}程序运行后的输出结果是(    )","a":["abcd","aegi","dfhk","abcdefghijk"],"correctAns":1,"grade":"b","score":-12.0,"total":27.0}
+{"q":"c程序是由c文件构成，而c文件是由函数构成","a":["错误","正确"],"correctAns":1,"grade":"b","score":-14.0,"total":13.0}
+{"q":"设整型变量a为5，使b不为2的表达式是（ ）。","a":["b\u003d6-(--a)","b\u003da%2","b\u003d(++a)/3","b\u003da/2"],"correctAns":1,"grade":"b","score":-13.0,"total":0.0}
+{"q":"32位系统中，x,y值各为多少？\u003cbr /\u003echar a, *p;\u003cbr /\u003ex \u003d sizeof(a);\u003cbr /\u003ey \u003d sizeof(p);","a":["1, 1","1, 4","1, 2","2, 1"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"下列表达式值为真的是（    ）。","a":["10!\u003d15 \u0026amp;\u0026amp; !(10\u0026lt;20)","5+5\u003d\u003d10 \u0026amp;\u0026amp; 1+3\u003d\u003d5","!(5+5)\u0026gt;\u003d10","5\u0026gt;10 || 10\u0026lt;20 \u0026amp;\u0026amp; 3\u0026lt;5"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"对函数形参的说明有错误的是____。","a":["int a(float x,int n)","int a(float x[],int n)","int a(float *x,int n)","int a(float x[10], n)"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"Ｃ语言的编译系统对宏命令的处理是（    ）。","a":["在程序运行时进行的","和C程序中的其它语句同时进行的","在程序连接时进行的","在对源程序中其它成分正式编译之前进行的"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"要为读/写操作打开一个字符文件，其正确的打开方式为：","a":["rw","rb+","r+","wr"],"correctAns":2,"grade":"b","score":-12.0,"total":0.0}
+{"q":"设所有变量均为整型,则表达式z\u003d(a\u003d2,b\u003d5,b++,a+b)的值是:","a":["8","7","2","6"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"若已定义的函数有返回值，则以下关于该函数调用的叙述中错误的是","a":["函数调用可以作为独立的语句存在","函数调用可以出现在表达式中","函数调用可以作为一个函数的形参","函数调用可以作为一个函数的实参"],"correctAns":2,"grade":"b","score":-13.0,"total":13.0}
+{"q":"表达式 !(x\u0026lt;\u003dy)等价于 x\u0026gt;y.","a":["正确","错误"],"correctAns":0,"grade":"b","score":25.0,"total":38.0}
+{"q":"若有以下程序： main() { int k\u003d2,i\u003d2,m; m\u003d(k+\u003di*\u003dk);printf(“%d,%dn”,m,i); } 执行后的输出结果是","a":["6，4","8，6","8，3","7，4"],"correctAns":0,"grade":"b","score":25.0,"total":63.0}
+{"q":"数组必须先定义后使用","a":["正确","错误"],"correctAns":0,"grade":"b","score":21.0,"total":84.0}
+{"q":"int main()\u003cbr /\u003e{\u003cbr /\u003eint i\u003d12;\u003cbr /\u003eprintf(\"%d\",printf(\"%d\",printf(\"%d\",i)));\u003cbr /\u003e}","a":["1221","1212"],"correctAns":0,"grade":"b","score":21.0,"total":105.0}
+{"q":"下列程序段的输出结果为int arr[]\u003d{6,7,8,9,10};int * ptr;ptr\u003darr;* (ptr+2)+\u003d2;printf (\u0026quot;%d,%dn\u0026quot;,*ptr,*(ptr+2));","a":["6,8","7,9","6,10","8,10"],"correctAns":2,"grade":"b","score":-17.0,"total":88.0}
+{"q":"C语言中，认为键盘是标准输入文件stdin","a":["正确","错误"],"correctAns":0,"grade":"b","score":21.0,"total":109.0}
+{"q":"windows操作系统下，连接器所生成的文件的扩展名为（ ）。","a":[".exe",".lib",".cpp",".obj"],"correctAns":0,"grade":"b","score":20.0,"total":129.0}
+{"q":"static不是C语言中的关键字","a":["正确","错误"],"correctAns":1,"grade":"b","score":-19.0,"total":110.0}
+{"q":"设有int n＝10; 要求屏幕上显示“n\u003d10”结果，正确的语句是","a":["printf( \u0026quot;n\u003d%d\u0026quot;, n );","printf( \u0026quot;n\u003d%d\u0026quot;, \u0026amp;n );","printf( \u0026quot;n\u003d\u0026quot;, n );","printf( n );"],"correctAns":0,"grade":"b","score":20.0,"total":130.0}
+{"q":"如要打开名字为fac的文件，使用文件方式为读入，则正确语句为（）。","a":["FILE *fp;fp\u003dfopen(\u0026quot;fac\u0026quot;,\u0026quot;r\u0026quot;)","FILE *fp;fp\u003dfopen(\u0026quot;fac\u0026quot;,\u0026quot;w\u0026quot;)","FILE fp;fp\u003dfopen(\u0026quot;fac\u0026quot;,\u0026quot;r\u0026quot;)"],"correctAns":0,"grade":"b","score":19.0,"total":149.0}
+{"q":"若有以下定义和语句 char c1\u003d\u0027b\u0027; printf(\"%cn\",c1-32); 则输出结果是","a":["97","输出项与对应的格式控制不一致，输出结果不确定","B","98"],"correctAns":2,"grade":"b","score":-20.0,"total":129.0}
+{"q":"对于一维数组a[5]，则数组名a表示的是数组的首地址","a":["正确","错误"],"correctAns":0,"grade":"b","score":18.0,"total":147.0}
+{"q":"当函数实参中使用指针变量时，形参变量也必须使用指针变量。","a":["错误","正确"],"correctAns":0,"grade":"b","score":18.0,"total":165.0}
+{"q":"设int n; 下列选择中“结果恒为真”的表达式是()。","a":["n\u003d0","n\u003d1","n!\u003d0","n\u003dn"],"correctAns":1,"grade":"b","score":-20.0,"total":145.0}
+{"q":"函数原型声明中使用的变量名必须与函数定义中的相匹配。","a":["错误","正确"],"correctAns":0,"grade":"b","score":18.0,"total":163.0}
+{"q":"C语言中，静态变量会自动初始化为0.","a":["正确","错误"],"correctAns":1,"grade":"b","score":-20.0,"total":143.0}
+{"q":"do-while循环的循环体语句至少执行一次。","a":["错误","正确"],"correctAns":1,"grade":"b","score":-20.0,"total":123.0}
+{"q":"从被调函数返回一值给主调函数使用（）语句。","a":["goto","return","break","continue"],"correctAns":1,"grade":"b","score":-18.0,"total":105.0}
+{"q":"如果一个函数的数组参数为char a[ ]，则等价的指针参数为（  ）。","a":["int *a","char *a","int a","char a"],"correctAns":1,"grade":"b","score":-17.0,"total":88.0}
+{"q":"一个一维数组，它的每一个元素也是类型相同的一维数组时，便构成二维数组","a":["正确","错误"],"correctAns":0,"grade":"b","score":22.0,"total":110.0}
+{"q":"下面能正确进行字符串赋值操作的语句是（ ）","a":["char s[5] \u003d{\u0027a\u0027, \u0027b\u0027 ,\u0027c\u0027, \u0027d\u0027, \u0027e\u0027,\u0027f\u0027};","char s[5]\u003d{\u0026quot;ABCDEF\u0026quot;};","char  s;  scanf(\u0026quot;%s\u0026quot;,s);","char *s; s\u003d\u0026quot;ABCDEF\u0026quot;;"],"correctAns":3,"grade":"b","score":-18.0,"total":92.0}
+{"q":"C语言是（）的简称","a":["CLANNAD","Combined Language","Crypt Lord","CoolLine"],"correctAns":1,"grade":"b","score":-17.0,"total":75.0}
+{"q":"已知大写字母A的ASCII码值是65，小写字母a的ASCII码是97，则用八进制表示的字符常量\u0027101’是","a":["字符e","字符a","非法的常量","字符A"],"correctAns":3,"grade":"b","score":-15.0,"total":60.0}
+{"q":"若有定义:int a[3]\u003d{0,1,2};则a[1]的值为（ ）。","a":["1","2","0","3"],"correctAns":0,"grade":"b","score":22.0,"total":82.0}
+{"q":"C语言中，认为显示器是标准输出文件stdout","a":["错误","正确"],"correctAns":1,"grade":"b","score":-16.0,"total":66.0}
+{"q":"设有以下语句，则（  ）是对a数组元素的不正确引用，其中0≤i＜10。int a[10]\u003d{0,1,2,3,4,5,6,7,8,9}, *p\u003da;","a":["*(*(a+i))","p[i]","*(\u0026amp;a[i])","a[p-a]"],"correctAns":0,"grade":"b","score":23.0,"total":89.0}
+{"q":"下列运算符中，优先级最高的是 (    ) .","a":["? :","[ ]","+\u003d","++"],"correctAns":1,"grade":"b","score":-17.0,"total":72.0}
+{"q":"函数一般包括哪两部分？","a":["定义部分，语句部分","定义部分，执行部分","声明部分，执行部分","声明部分，语句部分"],"correctAns":2,"grade":"b","score":-16.0,"total":56.0}
+{"q":"若有定义:int i\u003d0,x\u003d0;int a[3][3]\u003d{1,2,3,4,5,6,7,8,9};则以下程序段运行后x的值为（ ）。 \u003cbr /\u003efor (;i\u0026lt;3;i++) x+\u003da[i][2-i];","a":["18","0","15","12"],"correctAns":2,"grade":"b","score":-14.0,"total":42.0}
+{"q":"如果在一个函数中的复合语句中使用了一个变量，则该变量为非法变量。","a":["错误","正确"],"correctAns":0,"grade":"b","score":24.0,"total":66.0}
+{"q":"设有定义语句：char c1\u003d92, c2\u003d92; ,?则以下表达式中值为零的是()。","a":["c1|c2","c1\u0026amp;c2","c1^c2","~c2"],"correctAns":2,"grade":"b","score":-16.0,"total":50.0}
+{"q":"下列符号中，（ ）不是分隔符。","a":["{}",";","()","//"],"correctAns":3,"grade":"b","score":-15.0,"total":35.0}
+{"q":"以下程序的运行结果是（ ）。 \u003cbr /\u003evoid main() \u003cbr /\u003e{ \u003cbr /\u003e\u0026nbsp;int n\u003d\u0027e\u0027; \u003cbr /\u003e\u0026nbsp;switch(n--) {\u003cbr /\u003e\u0026nbsp;default: printf(\"error \");\u003cbr /\u003e\u0026nbsp;\u0026nbsp;case \u0027a\u0027: \u003cbr /\u003e\u0026nbsp;\u0026nbsp;case \u0027b\u0027: \u003cbr /\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;printf(\"good\"); break; \u003cbr /\u003e\u0026nbsp;\u0026nbsp;case \u0027c\u0027: \u003cbr /\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;printf(\"pass \"); \u003cbr /\u003e\u0026nbsp;\u0026nbsp;case \u0027d\u0027: \u003cbr /\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;printf(\"warn \"); \u003cbr /\u003e\u0026nbsp;} \u003cbr /\u003e}","a":["good","error","error good","warn"],"correctAns":2,"grade":"b","score":-11.0,"total":24.0}
+{"q":"强制终止死循环可以使用CTRL+BREAK组合键。","a":["正确","错误"],"correctAns":0,"grade":"b","score":24.0,"total":48.0}
+{"q":"假定i的值在循环体中不被改变，则for(i\u003d5;i\u0026lt;0;i++){…}的循环体将被执行（）次。","a":["5","3","4","一次也不循环"],"correctAns":3,"grade":"b","score":-14.0,"total":34.0}
+{"q":"fopen(\u0026quot;test.txt\u0026quot;,\u0026quot;r\u0026quot;)表示为写操作打开一个二进制文件","a":["错误","正确"],"correctAns":0,"grade":"b","score":24.0,"total":58.0}
+{"q":"若有定义:int a\u003d1,b\u003d2,c\u003d3,d\u003d4,x\u003d5,y\u003d6;则表达式 (x\u003da\u0026gt;b)\u0026amp;\u0026amp;(y\u003dc\u0026gt;d) 的值为（ ）。","a":["5","1","6","0"],"correctAns":3,"grade":"b","score":-15.0,"total":43.0}
+{"q":"所有类型的循环都可以进行嵌套使用。","a":["错误","正确"],"correctAns":1,"grade":"b","score":-15.0,"total":28.0}
+{"q":"下面程序的输出结果是（ ）。 \u003cbr /\u003e#include\u0026lt;stdio.h\u0026gt; \u003cbr /\u003evoid main() \u003cbr /\u003e{ \u003cbr /\u003e\u0026nbsp;int i; \u003cbr /\u003e\u0026nbsp;char *s\u003d\"abc\"; \u003cbr /\u003e\u0026nbsp;for(i\u003d0;i\u0026lt;3;i++) \u003cbr /\u003e\u0026nbsp;\u0026nbsp;printf(\"%s \",s+i); \u003cbr /\u003e}","a":["abccbc","cbcabc","abcbcc","aababc"],"correctAns":2,"grade":"b","score":-12.0,"total":16.0}
+{"q":"int a,*p\u003d\u0026amp;a;（    ）是非法的？","a":["\u0026amp;(*p)","*(\u0026amp;p)","\u0026amp;(*a)","*(\u0026amp;a)"],"correctAns":2,"grade":"b","score":-14.0,"total":2.0}
+{"q":"y\u003d++x\u0026gt;5\u0026amp;\u0026amp;++x\u0026lt;10；已知int x\u003d1,y；执行下述语句后变量x的值是","a":["4","3","2","1"],"correctAns":2,"grade":"b","score":-12.0,"total":0.0}
+{"q":"下列计算机语言中，CPU能直接识别的是","a":["机器语言","高级语言","自然语言","汇编语言"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"下列程序执行后的输出结果是main(){ int x\u003d\u0027f\u0027; printf(\u0026quot;%c n\u0026quot;,\u0027A\u0027+(x-\u0027a\u0027+1)); }","a":["H","G","J","I"],"correctAns":1,"grade":"b","score":-13.0,"total":13.0}
+{"q":"下面程序的输出结果是（ ）。 #include \u0026lt;stdio.h\u0026gt; #define SQR(x) (x*x) void main() { int a,b\u003d3; a\u003dSQR(b+2); printf(\"n%d\",a); }","a":["11","产生错误","25","不定值"],"correctAns":0,"grade":"b","score":26.0,"total":39.0}
+{"q":"基本随机函数的库函数是（）","a":["stdio.h","math.h","stdlib.h","time.h"],"correctAns":2,"grade":"b","score":-15.0,"total":24.0}
+{"q":"下面哪个不是循环语句","a":["do-while语句","if语句","for语句","while语句"],"correctAns":1,"grade":"b","score":-14.0,"total":10.0}
+{"q":"设a为5，执行下列代码后，b的值与其他表达式不同的是（    ）。","a":["b \u003d a%2","b \u003d 6-(--a)","b \u003d a/2","b \u003d a \u0026lt; 3 ? 3: 2"],"correctAns":0,"grade":"b","score":26.0,"total":36.0}
+{"q":"设 int a\u003d2，则执行完语句 a+\u003da-\u003da*a后，a的值是","a":["0","2","4","–4"],"correctAns":3,"grade":"b","score":-14.0,"total":22.0}
+{"q":"C语言中运算符%表示的是求余运算","a":["错误","正确"],"correctAns":1,"grade":"b","score":-14.0,"total":8.0}
+{"q":"若执行以下程序时键盘上输入9，则输出结果是（ ）。 Main() {int n; scanf(\"%d\",\u0026amp;n); printf(\"%dn\",n--);}","a":["10","11","9","8"],"correctAns":2,"grade":"b","score":-12.0,"total":0.0}
+{"q":"若有定义 int a\u003d1,*b,c; 以下不正确的是（ ）。","a":["c\u003da","b\u003da","b\u003d\u0026amp;a;c\u003d*b","b\u003d\u0026amp;a"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"____是C语言合法的变量说明","a":["int a\u003d098","char s[]\u003d{\u00273\u0027,\u00274\u0027,\u0027a\u0027,\u0027y\u0027}","float x\u003dy\u003d3.1","char ch\u003d\u0026quot;abc\u0026quot;"],"correctAns":1,"grade":"b","score":-13.0,"total":0.0}
+{"q":"若定义 int m\u003d12,n\u003d7;下面表达式m%n的值是(      )","a":["19","12","7","5"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"若调用fputc函数输出字符成功，则函数的返回值是（）。","a":["0","EOF","-1","输出的字符"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"若有定义：int a\u003d2,b\u003d3; float x\u003d3.5,y\u003d2.5;则表达式(float)(a+b)/2+(int)x%(int)y的值是（ ）。","a":["2.5","3.5","2.0","3.0"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"设a和b为实数，则“a与b符号相反“用C语言描述为（  ）。","a":["a*b\u0026lt;0","a+b\u0026lt;0","a*b\u0026gt;0","a+b\u0026gt;0"],"correctAns":0,"grade":"b","score":27.0,"total":27.0}
+{"q":"switch语句中，每一个case的冒号后面都必须至少跟有一条语句","a":["正确","错误"],"correctAns":1,"grade":"b","score":-13.0,"total":14.0}
+{"q":"将字符g赋给字符变量c，正确的表达式是 。","a":["c\u003d’\\147’","c\u003d\\147","c\u003d\u0026quot;\\147\u0026quot;","c\u003d’0147’"],"correctAns":0,"grade":"b","score":25.0,"total":39.0}
+{"q":"下列数组定义中，正确的是（  ）。","a":["int a[]\u003d{0 1 2};","int a[];","int a[5]\u003d{0};","int a[5]\u003d0;"],"correctAns":2,"grade":"b","score":-15.0,"total":24.0}
+{"q":"在C语言中，数组元素可以是不同数据类型的。","a":["错误","正确"],"correctAns":0,"grade":"b","score":25.0,"total":49.0}
+{"q":"已知，a为char型，以下语句输出字符\u0027a\u0027的是。","a":["putchar(a);","printf(\u0026quot;%d\u0026quot;,a);","printf(\u0026quot;%d\u0026quot;,\u0027a\u0027);","printf(\u0026quot;%c\u0026quot;,\u0027a\u0027);"],"correctAns":3,"grade":"b","score":-15.0,"total":34.0}
+{"q":"已知：char s[100]；int i；则引用数组元素的错误的形式是","a":["*(i+s)","*((s++)+i)","*(s+i)","s[i+10]"],"correctAns":1,"grade":"b","score":-14.0,"total":20.0}
+{"q":"若有如下程序段，其中s、a、b、c均已定义为整型变量,且a、c均已赋值（c大于0）s\u003da;for(b\u003d1;b\u0026lt;\u003dc;b++) s\u003ds+1;则与上述程序段功能等价的赋值语句是","a":["s\u003ds+c;","s\u003da+b;","s\u003db+c;","s\u003da+c;"],"correctAns":3,"grade":"b","score":-11.0,"total":9.0}
+{"q":"若有下面的说明和定义，则sizeof(struct aa) 的值是 6 struct aa { int r1; float r3; };","a":["正确","错误"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"（ ）是非法的C语言算术表达式。","a":["25/3 %2","(5/3) *3 + 5%3","-14 % 3","7.5 % 3"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"下面程序的输出是（ ） \u003cbr /\u003e#include\u0026lt;stdio.h\u0026gt; \u003cbr /\u003e#include\u0026lt;string.h\u0026gt; \u003cbr /\u003emain() \u003cbr /\u003e{ \u003cbr /\u003echar p1[50]\u003d\"abc\";\u003cbr /\u003echar *p2\u003d\"de\"; \u003cbr /\u003eprintf(\"%s\",strcat(p1,p2));\u003cbr /\u003e}","a":["a","de","abcde","abc"],"correctAns":2,"grade":"b","score":-12.0,"total":0.0}
+{"q":"假定x和y为int型，则表达式y\u003d3/2的值是   2","a":["正确","错误"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"设有如下定义： typedef int *INTEGER; INTEGER p,*q; 则（ ）是正确的叙述。","a":["程序中可用INTEGER代替int类型名","p是int型变量","p是基类型为int的指针变量","q是基类型为int的指针变量"],"correctAns":2,"grade":"b","score":-12.0,"total":0.0}
+{"q":"数组定义后，每个元素的值自动初始化为0。","a":["错误","正确"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"已知 int a[2][3]\u003d{3,2,1}；则表达式\"a[0][0]/a[0][1]/a[0][2]\"的值是____。","a":["0","1","0.166667","错误的表达式"],"correctAns":1,"grade":"b","score":-14.0,"total":12.0}
+{"q":"使用语句scanf(\"x\u003d%f,y\u003d%f\",\u0026amp;x,\u0026amp;y)；输入变量x、y的值（□代表空格），正确的输入是","a":["1.25","x\u003d1.25□y\u003d2.4","1.25,2.4","x\u003d1.25,y\u003d2.4"],"correctAns":3,"grade":"b","score":-12.0,"total":0.0}
+{"q":"C 语言中的标识符只能由字母、数字和下划线三种字符组成，且第一个字符 。","a":["必须为字母或下划线","必须不是字母或下划线","必须为字母","必须为下划线"],"correctAns":0,"grade":"b","score":27.0,"total":27.0}
+{"q":"已知：int a\u003d10 , c\u003d9 ；则表达式(--a\u003d\u003dc++)?--a:++c的值为","a":["10","6","12","8"],"correctAns":3,"grade":"b","score":-14.0,"total":13.0}
+{"q":"对枚举类型进行定义，不正确的是（ ）。","a":["enum b{1, 2, 3};","enum d{X\u003d0, Y\u003d5, Z\u003d9};","enum c{D\u003d3, E, F};","enum a{A, B, C};"],"correctAns":0,"grade":"b","score":25.0,"total":38.0}
+{"q":"若有定义：int a[3][4];不能表示数组元素a[1][1]的是（   ）","a":["*(\u0026amp;a[1][1])","*(a[1]+1)","*(a+5)","(*(a+1)[1])"],"correctAns":2,"grade":"b","score":-14.0,"total":24.0}
+{"q":"下面程序的输出结果为（ ）。 \u003cbr /\u003e#include \u0026lt;stdio.h\u0026gt; \u003cbr /\u003evoid main()\u003cbr /\u003e\u0026nbsp;{\u003cbr /\u003eenum Weekday{sun\u003d7,mon\u003d1,tue,wed,thu,fri,sat}; \u003cbr /\u003eenum Weekday day\u003dsat; \u003cbr /\u003eprintf(\"%dn\",day); \u003cbr /\u003e}\u003cbr /\u003e","a":["4","6","7","5"],"correctAns":1,"grade":"b","score":-12.0,"total":12.0}
+{"q":"scanf函数中没有精度控制","a":["错误","正确"],"correctAns":1,"grade":"b","score":-13.0,"total":0.0}
+{"q":"switch表达式可以是任何类型。","a":["错误","正确"],"correctAns":0,"grade":"b","score":25.0,"total":25.0}
+{"q":"若有以下程序段，且0≤i＜4，0≤j＜3，则不能正确访问a数组元素的是（  ）。\u003cbr/\u003eint i,j,(*p)[3];\u003cbr/\u003eint a[][3]\u003d{1,2,3,4,5,6,7,8,9,10,11,12};\u003cbr/\u003ep \u003d a;","a":["*(*(a+i)+j)","p[i][j]","(*(p+i))[j]","p[i]+j"],"correctAns":3,"grade":"b","score":-12.0,"total":13.0}
+{"q":"假定x\u003d5，则表达式x\u0026gt;4\u0026amp;\u0026amp;x\u0026lt;6的值为（  ）。","a":["0","6","4","1"],"correctAns":3,"grade":"b","score":-13.0,"total":0.0}
+{"q":"已知一个字符串的最大字符长度为8，要使用字符数组str存放该字符串，以下哪种定义是正确的：","a":["char str;","char str[8];","char str[9];","char str(9);"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"对于C语言源程序，以下叙述错误的是","a":["程序调试时如果没有提示错误，就能得到正确结果","函数之间是平等的，在一个函数内部不能定义其它函数","可以有空语句","注释可以出现在语句的前面"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"判断两个字符串S1 和 S2 相等的正确语句是（     ）。","a":["if (strcmp(S1,S2)\u003d\u003d0)","if (S1\u003d\u003dS2)","if (S1\u003dS2)","if (strcpy(S1,S2))"],"correctAns":0,"grade":"b","score":25.0,"total":51.0}
+{"q":"如有以下定义： struct date{ int year; int month; int day; }; struct worklist{ char name[20]; char sex; struct date birthday; }person; 对结构体变量person的出生年份进行赋值时，下面正确的赋值语句是（ ）。","a":["person.birthday.year\u003d1985","person.year\u003d1985","year\u003d1985","birthday.year\u003d1985"],"correctAns":0,"grade":"b","score":26.0,"total":77.0}
+{"q":"下列变量名中非法的是（    ）","a":["Row_total","float","Row1","Minimum"],"correctAns":1,"grade":"b","score":-16.0,"total":61.0}
+{"q":"break语句是","a":["不是关键字","中断整个循环","中断本次循环","不能中断"],"correctAns":1,"grade":"b","score":-16.0,"total":45.0}
+{"q":"下面程序的输出是#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;string.h\u0026gt;main(){ char p1[10]\u003d\u0026quot;abc\u0026quot;,*p2\u003d\u0026quot;ABC\u0026quot;;printf(\u0026quot;%sn\u0026quot;, strcat(p1,p2));}","a":["ABC","abcABC","abc","xyzabcABC"],"correctAns":1,"grade":"b","score":-13.0,"total":32.0}
+{"q":"C语言是高级语言","a":["错误","正确"],"correctAns":0,"grade":"b","score":23.0,"total":55.0}
+{"q":"设有下列变量说明与函数说明，则合法的函数调用语句是()。 void swap( int *p, int *q ); int x, y;","a":["swap( \u0026amp;x, \u0026amp;y );","swap( x, y );","swap( *x, *y );","swap( p, q );"],"correctAns":0,"grade":"b","score":24.0,"total":79.0}
+{"q":"若有以下定义:\u003cbr/\u003echar    a;    int   b;\u003cbr/\u003efloat   c;    double   d;\u003cbr/\u003e则表达式a*b+d-c值的类型为（  ）","a":["int","char","double","float"],"correctAns":2,"grade":"b","score":-16.0,"total":63.0}
+{"q":"下列运算符中，优先级最低的是(    )","a":["++","\u003d","!\u003d","\u0026amp;\u0026amp;"],"correctAns":1,"grade":"b","score":-16.0,"total":47.0}
+{"q":"关于C语言数据类型的叙述，正确的是","a":["变量必须先定义后使用","不允许使用空类型","数组不是构造类型","枚举类型不是基本类型"],"correctAns":0,"grade":"b","score":23.0,"total":70.0}
+{"q":"已知 char a;使用scanf()函数输入一个字符给变量a,不正确的函数调用是（  ）。","a":["scanf(\u0026quot;%c\u0026quot;,\u0026amp;a);","scanf(\u0026quot;%lf\u0026quot;,\u0026amp;a);","scanf(\u0026quot;%d\u0026quot;,\u0026amp;a);","scanf(\u0026quot;%u\u0026quot;,\u0026amp;a);"],"correctAns":1,"grade":"b","score":-15.0,"total":55.0}
+{"q":"已知char c; 则下列语句中正确的是（ ）","a":["\u002797\u0027","c\u003d\u0026quot;97\u0026quot;","c\u003d\u0027a\u0027","c\u003d\u0026quot;a\u0026quot;"],"correctAns":2,"grade":"b","score":-16.0,"total":39.0}
+{"q":"一个指针变量加1表示将该指针变量的原值(地址)加1。","a":["错误","正确"],"correctAns":0,"grade":"b","score":24.0,"total":63.0}
+{"q":"下面四个选项中,均是合法浮点数的选项是","a":["-.60,12e-4,-7e1/6","-e3, .8e4,5.e-0","+le+1,5e-9.4,03e2","123e,1.2e-.4,+2e-1"],"correctAns":0,"grade":"b","score":22.0,"total":85.0}
+{"q":"下列程序段的输出结果是（   ）int x\u003d0;while(++x\u0026lt;3)printf(\u0026quot;%4d\u0026quot;,x);","a":["1  2","4","0  1  2","3"],"correctAns":0,"grade":"b","score":21.0,"total":106.0}
+{"q":"a-\u003d7等价于a\u003da-7.","a":["正确","错误"],"correctAns":0,"grade":"b","score":19.0,"total":125.0}
+{"q":"若有定义：int k,i\u003d2,j\u003d4; 则表达式 k\u003d(++i)*(j--) 的值是（ ）。","a":["6","9","12","8"],"correctAns":2,"grade":"b","score":-18.0,"total":107.0}
+{"q":"已知宏定义 #define SQ(x) x*x,执行语句printf(\"%d\",10/SQ(3))；后的输出结果是____。","a":["9","3","1","10"],"correctAns":0,"grade":"b","score":20.0,"total":127.0}
+{"q":"设有如下变量定义： char aa[][3]\u003d{\u0027a\u0027,\u0027b\u0027,\u0027c\u0027,\u0027d\u0027,\u0027e\u0027,\u0027f\u0027}; char (*p)[3]\u003daa; 则以下程序段的运行结果是（ ）。 p++; printf(\"%c\",**p);","a":["b","d","a","c"],"correctAns":1,"grade":"b","score":-17.0,"total":110.0}
+{"q":"每一个case的常量表达式的值必须互不相同。","a":["错误","正确"],"correctAns":1,"grade":"b","score":-18.0,"total":92.0}
+{"q":"如果x\u0026gt;y为真或a\u0026lt;b为真，表达式(x\u0026gt;y)\u0026amp;\u0026amp;（a\u0026lt;b)就为真。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-16.0,"total":76.0}
+{"q":"若x和y都是int型变量,x\u003d100,y\u003d200,且有下面的程序片段:printf(\u0026quot;%dn\u0026quot;,(x,y));上面程序片段的输出结果是(  )","a":["输出格式符不够,输出不确定的值","100","200","100  200"],"correctAns":2,"grade":"b","score":-15.0,"total":61.0}
+{"q":"下列程序段的输出是 ( ) . char s[]\u003d\"student\"; printf(\"%s%d\",s+3,sizeof(s));","a":["student7","student8","dent7","dent8"],"correctAns":3,"grade":"b","score":-16.0,"total":45.0}
+{"q":"已知：int a[]\u003d{1,2,3,4},\u0026nbsp; *p\u003da；则执行语句a \u003d (*++p)--；之后, 数组a各元素的值变为","a":["1,1,3,3","1,1,3,4","0,1,3,4","1,2,3,3"],"correctAns":1,"grade":"b","score":-14.0,"total":31.0}
+{"q":"已知：char a[3][10]\u003d{\u0026quot;BeiJing\u0026quot;,\u0026quot;ShangHai\u0026quot;,\u0026quot;TianJin\u0026quot;}, *pa\u003da[0]；不能正确显示字符串\u0026quot;ShangHai\u0026quot;的语句是（  ） 。","a":["printf(\u0026quot;%s\u0026quot;,*a+1)；","printf(\u0026quot;%s\u0026quot;,\u0026amp;a[1][0])；","printf(\u0026quot;%s\u0026quot;,*(a+1))；","printf(\u0026quot;%s\u0026quot;,a+1)；"],"correctAns":0,"grade":"b","score":25.0,"total":56.0}
+{"q":"C语言程序从main()函数开始执行，所以这个函数要写在____。","a":["程序文件的最后","它所调用的函数的前面","程序文件的开始","程序文件的任何位置"],"correctAns":3,"grade":"b","score":-15.0,"total":41.0}
+{"q":"一个C++程序必须有一个名为（  ）的函数。","a":["Main","fun","MAIN","main"],"correctAns":3,"grade":"b","score":-15.0,"total":26.0}
+{"q":"如果要定义整型指针p并初始化指向变量x，则使用的声明语句为（  ）。","a":["int p\u003dx;","int p\u003d\u0026amp;x;","int *p\u003dx;","int *p\u003d\u0026amp;x;"],"correctAns":3,"grade":"b","score":-13.0,"total":13.0}
+{"q":"下面四个选项中,均是不合法的用户标识符的选项是。","a":["_123,temp,INT","A,P_0,do","float,1a0,_A","b-a,goto,int"],"correctAns":3,"grade":"b","score":-13.0,"total":0.0}
+{"q":"getchar()函数的功能是从标准输入设备输入（）字符","a":["两个","一个","任意个，直到回车结束"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"对于以下程序片段，描述正确的是（ ）。 int x \u003d -1; do { x \u003d x * x; }while(!x);","a":["循环执行一次","有语法错误","是死循环","循环执行两次"],"correctAns":0,"grade":"b","score":26.0,"total":26.0}
+{"q":"若有以下定义和语句，则下面对共用体变量a的引用正确的是（）。 union data { int i； char c； float f； } a； int n；","a":["a\u003d{1，\u0027x\u0027，5.0}；","a\u003d5；","n\u003da{5}；","a.i\u003d10；"],"correctAns":3,"grade":"b","score":-12.0,"total":14.0}
+{"q":"若有int a[10]\u003d{6,7,8,9,10};，则是将5个初值依次赋给a[0]至a[4]。","a":["正确","错误"],"correctAns":0,"grade":"b","score":25.0,"total":39.0}
+{"q":"设函数f()的说明形式为void  f(int , int  *); 利用函数f( )对数5和整数j 作函数f( )定义的计算，正确的调用形式为（   ）","a":["f(\u0026amp;5, j)","f( \u0026amp;5, \u0026amp;j)","f(5,j)","f(5, \u0026amp;j)"],"correctAns":3,"grade":"b","score":-12.0,"total":27.0}
+{"q":"char  *p[10]；定义了一个指向字符数组的指针变量。","a":["错误","正确"],"correctAns":0,"grade":"b","score":24.0,"total":51.0}
+{"q":"C语言中，整形常数(除开unsigned无符号型)表示的方法有3种int short long","a":["错误","正确"],"correctAns":1,"grade":"b","score":-15.0,"total":36.0}
+{"q":"下面程序段的运行结果是()。 \u003cbr /\u003echar  c[ ]\u003d\"tv\\willn\"; \u003cbr /\u003eprintf(\"%d\", sizeof(c));\u0026nbsp;","a":["3","4","10","13","14"],"correctAns":2,"grade":"b","score":-14.0,"total":22.0}
+{"q":"若a\u003d1,b\u003d2,c\u003d3，表达式a|b-c的运算结果是（）。","a":["-1","255","0","1"],"correctAns":0,"grade":"b","score":25.0,"total":47.0}
+{"q":"若要表示a不等于0的关系,则能正确表示这一关系的表达式为（ ）。","a":["a\u003d0","a!\u003d0","!a","a \u0026lt; \u0026gt; 0"],"correctAns":1,"grade":"b","score":-14.0,"total":33.0}
+{"q":"需要以写模式打开一个名为myfile.txt的文本文件，下列打开文件正确的选项是()。","a":["fopen(\u0026quot;myfile.txt\u0026quot;,\u0026quot;r\u0026quot;);","fopen(\u0026quot;myfile.txt\u0026quot;,\u0026quot;w\u0026quot;);","fopen(\u0026quot;myfile.txt\u0026quot;,\u0026quot;a+\u0026quot;);","fopen(\u0026quot;myfile.txt\u0026quot;,\u0026quot;rb\u0026quot;);"],"correctAns":1,"grade":"b","score":-13.0,"total":20.0}
+{"q":"下列符号中可以作为函数名的是(    )","a":["_sysf","x-a","$abc","5as"],"correctAns":0,"grade":"b","score":24.0,"total":44.0}
+{"q":"若有定义：int a; 则语句a\u003d(3 * 4)+ 2 % 3;运行后，a的值为（ ）。","a":["14","17","11","12"],"correctAns":0,"grade":"b","score":24.0,"total":68.0}
+{"q":"写出表达式!(3\u0026gt;5)||(6\u0026lt;2)的值（）。","a":["1","3","5","0"],"correctAns":0,"grade":"b","score":21.0,"total":89.0}
+{"q":"任何数据呈现方式都有两种（）","a":["整型，实数型","常量，变量"],"correctAns":1,"grade":"b","score":-17.0,"total":72.0}
+{"q":"若有定义int a[2][3];则对数组元素的非法引用是（  ）。","a":["a[4-4][0]","a[1][1]","a[0][3]","a[0][1]"],"correctAns":2,"grade":"b","score":-16.0,"total":56.0}
+{"q":"C语言程序中的main（）函数必须放在程序的开始部分","a":["错误","正确"],"correctAns":0,"grade":"b","score":23.0,"total":79.0}
+{"q":"下面函数调用语句含有实参的个数为_______。 y \u003d func ( a, b, max（d ,e）);","a":["3","2","5","4"],"correctAns":0,"grade":"b","score":22.0,"total":101.0}
+{"q":"对于整型变量x,与while(!x)等价的是（  ）。","a":["while(x\u003d\u003d0)","while(~x)","while(x!\u003d0)","while(x!\u003d1)"],"correctAns":0,"grade":"b","score":20.0,"total":121.0}
+{"q":"若有以下语句，则正确的描述是（ ）.\u003cbr /\u003e\u0026nbsp;char x[]\u003d\"12345\";\u003cbr /\u003e\u0026nbsp;char y[]\u003d{\u00271\u0027, \u00272\u0027, \u00273\u0027, \u00274\u0027, \u00275\u0027};","a":["x数组与y数组的长度相同","x数组等价于y数组","x数组长度大于y数组长度","x数组长度小于y数组长度"],"correctAns":2,"grade":"b","score":-17.0,"total":104.0}
+{"q":"有以下程序 \u003cbr /\u003e#include \u0026lt;stdio.h\u0026gt; \u003cbr /\u003evoid f(int *p,int *q); \u003cbr /\u003emain() \u003cbr /\u003e{\u003cbr /\u003eint m\u003d1,n\u003d2,*r\u003d\u0026amp;m; \u003cbr /\u003ef(r,\u0026amp;n)； \u003cbr /\u003eprintf(\"%d,%d\",m,n);\u003cbr /\u003e\u0026nbsp;} \u003cbr /\u003evoid f(int *p,int *q) { p\u003dp+1; *q\u003d*q+1； } \u003cbr /\u003e程序运行后的输出结果是( )","a":["1，4","2，3","1，3","1，2"],"correctAns":2,"grade":"b","score":-15.0,"total":89.0}
+{"q":"设有说明int (*p)[4]；其中的标识符p是","a":["指向4个整型变量的函数指针","一个指向具有4个整型元素的一维数组的指针","具有4个指向整型变量的指针元素的一维指针数组","4个指向整型变量的指针变量"],"correctAns":1,"grade":"b","score":-17.0,"total":72.0}
+{"q":"C编译系统将浮点型常量作为float型来处理。","a":["错误","正确"],"correctAns":0,"grade":"b","score":22.0,"total":94.0}
+{"q":"设有以下结构体定义及初始化，则表达式结果为\u0027i\u0027的是()。 \u003cbr /\u003estruct node { \u003cbr /\u003e\u0026nbsp;int num; \u003cbr /\u003e\u0026nbsp;char name[20]; \u003cbr /\u003e} stu[2]\u003d{101, \"Wang\",102, \"Li\"},*p\u003dstu;","a":["p-\u0026gt;name[1]+1","p-\u0026gt;name[1]","stu[1].name[1]","stu[2].name[1]"],"correctAns":2,"grade":"b","score":-16.0,"total":78.0}
+{"q":"若有定义:int x\u003d1,y\u003d2,z\u003d4;则以下程序段运行后z的值为（ ）。if(x\u0026gt;y) z\u003dx+y;else z\u003dx-y;","a":["-1","3","4","不确定"],"correctAns":0,"grade":"b","score":22.0,"total":100.0}
+{"q":"C语言中强制类型转换不会改变原变量的原有数据类型。","a":["正确","错误"],"correctAns":0,"grade":"b","score":20.0,"total":120.0}
+{"q":"设有说明int n; char str[80];与函数调用：n\u003dhex2dec(str);则函数hex2dec正确的函数说明应该是：","a":["void hex2dec(char str);","int hex2dec(char str);","void hex2dec(char str[]);","int hex2dec(char str[]);"],"correctAns":3,"grade":"b","score":-17.0,"total":103.0}
+{"q":"设变量说明为int a\u003d2,b\u003d3,c\u003d7,d\u003d10；则表达式 d\u003da\u003d\u003db?++b:++c的值是____。","a":["8","10","4","6"],"correctAns":0,"grade":"b","score":20.0,"total":123.0}
+{"q":"如果一个变量在整个程序运行期间都存在，但是仅在说明它的函数内是可见的，这个变量的存储类型应该被说明为____。","a":["动态变量","内部变量","外部变量","静态变量"],"correctAns":3,"grade":"b","score":-16.0,"total":107.0}
+{"q":"关于函数叙述正确的是（  ）。","a":["程序中的所有功能都需程序员自己编写函数来实现","函数的定义一定要放在调用语句之后","基于DOS的C++程序至少应包含main函数","函数的调用过程一定要使用参数，并且应有返回值"],"correctAns":2,"grade":"b","score":-18.0,"total":89.0}
+{"q":"当调用函数时，实参是一个数组名，则向函数传送的是","a":["数组的长度","数组的首地址","数组每个元素中的值","数组每一个元素的地址"],"correctAns":1,"grade":"b","score":-16.0,"total":73.0}
+{"q":"若有以下类型说明，叙述正确的是（ ）。 typedef struct { int num; char *name; int score; }STU,*PSTU;","a":["PSTU是指向结构体类型STU的指针类型名","类型说明语句有错误","STU是变量名","PSTU是变量名"],"correctAns":0,"grade":"b","score":22.0,"total":95.0}
+{"q":"多行注释的符号是（）","a":["\u0026lt;-        -\u0026gt;","--","//","/*            */"],"correctAns":3,"grade":"b","score":-17.0,"total":78.0}
+{"q":"下面程序的输出是 main() { int x\u003d023; printf(%dn\",--x);}","a":["24","23","17","18"],"correctAns":3,"grade":"b","score":-16.0,"total":62.0}
+{"q":"使用strcpy函数可以实现两个字符串的复制。","a":["正确","错误"],"correctAns":0,"grade":"b","score":22.0,"total":84.0}
+{"q":"C语言中，变量名只能是小写字母表示，符号常量名可用大写表示","a":["错误","正确"],"correctAns":0,"grade":"b","score":22.0,"total":106.0}
+{"q":"下面哪一组符号全是关系运算符（  ）。","a":["\u0026lt;、\u0026amp;\u0026amp;、\u003d","\u0026lt;、||、\u003d","\u0026lt;、\u003d\u003d、!\u003d","\u0026lt;.、\u0026lt;\u003d、+"],"correctAns":2,"grade":"b","score":-18.0,"total":88.0}
+{"q":"c语言是（）语言","a":["高级语言","汇编语言","机器语言","中级语言"],"correctAns":0,"grade":"b","score":20.0,"total":108.0}
+{"q":"C程序中，（  ）符号专门用以进行多行的注释。","a":["/","/*…*/","#","//"],"correctAns":1,"grade":"b","score":-17.0,"total":91.0}
+{"q":"*p++等价于(*p)++。","a":["错误","正确"],"correctAns":0,"grade":"b","score":20.0,"total":111.0}
+{"q":"若有定义：int x\u003d2,y\u003d3;float i;，则以下符合C语言语法的表达式是（ ）。","a":["i%(-3)","x\u003d(y\u003d\u003d1)","i\u003dfloat(x)","x\u003dx*3\u003d2"],"correctAns":1,"grade":"b","score":-17.0,"total":94.0}
+{"q":"使用文件前必须先打开文件","a":["错误","正确"],"correctAns":1,"grade":"b","score":-17.0,"total":77.0}
+{"q":"已定义c为字符型变量，则下列语句中与c\u003d\u0027a\u0027;等价的赋值语句是","a":["c\u003d\u0026quot;97\u0026quot;;","c\u003d\u002797\u0027;","c\u003d\u0026quot;a\u0026quot;","c\u003d97"],"correctAns":3,"grade":"b","score":-16.0,"total":61.0}
+{"q":"对字符数组s赋值,不合法的一个是____。","a":["char s[20]\u003d{’B’,’e’,’i’,’j’,’i’,’n’,’g’}；","char s[20]；s\u003d\u0026quot;Beijing\u0026quot;；","char s[]\u003d\u0026quot;Beijing\u0026quot;；","char s[20]\u003d{\u0026quot;beijing\u0026quot;}；"],"correctAns":1,"grade":"b","score":-16.0,"total":45.0}
+{"q":"设有定义：char  s[20];  则在下面表达式中错误表示s[1] 的地址的是()。","a":["\u0026amp;s[1]","++s","s+1","\u0026amp;s[0]+1 "],"correctAns":1,"grade":"b","score":-14.0,"total":31.0}
+{"q":"若y\u003d3,z\u003d4,则条件表达式y\u0026lt;z?y:z的值是（  ）","a":["1","2","4","3"],"correctAns":3,"grade":"b","score":-14.0,"total":17.0}
+{"q":"switch语句总是可以用一系列if……else语句来替代。","a":["错误","正确"],"correctAns":1,"grade":"b","score":-13.0,"total":4.0}
+{"q":"请读程序片段(字符串内没有空格字符):printf(\u0026quot;%dn\u0026quot;, strlen(\u0026quot;ATSn0121\\\u0026quot;));上面程序片段的输出结果是（   ）","a":["9","10","8","11"],"correctAns":0,"grade":"b","score":27.0,"total":31.0}
+{"q":"表达式8*(int)(1/2+5/(double)2)的运算结果为","a":["18","12","14","16"],"correctAns":3,"grade":"b","score":-15.0,"total":16.0}
+{"q":"如果a是一维数组，则a[i]的指针访问方式为（ ）。","a":["a+i","a","*(a+i)","*a+i"],"correctAns":2,"grade":"b","score":-13.0,"total":3.0}
+{"q":"若执行以下程序时从键盘上输入9，则输出结果是main0{ int n;scanf(\u0026quot;%d\u0026quot;,\u0026amp;n);if(n++\u0026lt;10) printf(\u0026quot;%dn\u0026quot;,n);else printf(\u0026quot;%dn\u0026quot;,n--);}","a":["11","8","10","9"],"correctAns":2,"grade":"b","score":-11.0,"total":0.0}
+{"q":"设有定义int a;判断a是一个偶数的表达式是","a":["a/2\u003d\u003d0","a%2\u003d\u003d0","a\u003d\u003d2*n","a%2"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"通过指针变量，就能间接地得到它所指向的变量的值","a":["错误","正确"],"correctAns":1,"grade":"b","score":-12.0,"total":0.0}
+{"q":"C语言中数组名实质上是数组的首地址，是一个变量地址，可对其进行赋值","a":["错误","正确"],"correctAns":0,"grade":"b","score":27.0,"total":27.0}
+{"q":"C语言程序的书写格式虽然自由，但为了清晰，一般在一行内写一个语句。","a":["正确","错误"],"correctAns":0,"grade":"b","score":25.0,"total":52.0}
+{"q":"下面程序的输出结果是（ ）。\u003cbr /\u003e#include \u0026lt;stdio.h\u0026gt; \u003cbr /\u003e#include \u0026lt;stdlib.h\u0026gt;\u003cbr /\u003etypedef struct node{ int data; struct node *next; }Node;\u003cbr /\u003eNode list[3]\u003d{{1,\u0026amp;list[1]},{2,\u0026amp;list[2]},{3,0}};\u003cbr /\u003evoid print(Node* head) {\u003cbr /\u003e\u0026nbsp;Node* t\u003dhead;\u003cbr /\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;while(t!\u003dNULL) { \u003cbr /\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;printf(\"%d \",t-\u0026gt;data); \u003cbr /\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;t\u003dt-\u0026gt;next; \u003cbr /\u003e} \u003cbr /\u003e}\u003cbr /\u003evoid main() { print(list); }","a":["0 1 2","0 1 3","1 2 3","2 3 0"],"correctAns":2,"grade":"b","score":-12.0,"total":40.0}
+{"q":"对于基类型相同的两个指针变量之间，不能进行的运算是（  ）。","a":["-","\u0026lt;","+","\u003d"],"correctAns":2,"grade":"b","score":-14.0,"total":26.0}
+{"q":"若有定义和语句:char s[10];s\u003d\u0026quot;abcd\u0026quot;;printf(\u0026quot;%sn\u0026quot;,s);则结果是(以下u代表空格)","a":["输出abcd","编译不通过","输出abcduuuuu","输出a"],"correctAns":1,"grade":"b","score":-13.0,"total":13.0}
+{"q":"a\u003d1,b\u003d2,c\u003d3,d\u003d4, m\u003d1,n\u003d1,表达式(m\u003da\u0026amp;gt;b)\u0026amp;amp;\u0026amp;amp;(n\u003dc\u0026amp;gt;d)执行后，m,n的值均为0。","a":["错误","正确"],"correctAns":0,"grade":"b","score":26.0,"total":39.0}
+{"q":"#mat是C语言中合法的标识符","a":["错误","正确"],"correctAns":0,"grade":"b","score":23.0,"total":62.0}
+{"q":"使用指针技术，可以通过修改形参变量自身的值达到修改实参变量的值的目的。","a":["正确","错误"],"correctAns":1,"grade":"b","score":-15.0,"total":47.0}
+{"q":"以下不能正确进行字符串赋初值的语句是( )","a":["char str[5]\u003d{\u0027g\u0027,\u0027o\u0027,\u0027o\u0027,\u0027d\u0027}","char str[5]\u003d\u0026quot;good!\u0026quot;","char str[]\u003d\u0026quot;good!\u0026quot;","char *str\u003d\u0026quot;good!\u0026quot;"],"correctAns":1,"grade":"b","score":-15.0,"total":32.0}
+{"q":"数组元素的类型必须相同.","a":["正确","错误"],"correctAns":0,"grade":"b","score":23.0,"total":55.0}
+{"q":"若有语句：char s1[10], s2[10]\u003d{\"books\"}，则能将字符串books赋给数组s1的正确语句是( )。","a":["s1\u003d{\u0026quot;books\u0026quot;};","strcpy(s1, s2);","strcpy(s2, s1);","s1\u003ds2;"],"correctAns":1,"grade":"b","score":-15.0,"total":40.0}
+{"q":"scanf函数中没有宽度控制","a":["正确","错误"],"correctAns":0,"grade":"b","score":23.0,"total":63.0}
+{"q":"x \u003d 6 ;x +\u003dx -\u003d x*x ;若x为int型变量，则执行上述语句后，x的值为","a":["-60","36","60","-24"],"correctAns":0,"grade":"b","score":23.0,"total":86.0}
+{"q":"下面的语句，则输出结果为（ ） printf(\"%dn\",strlen(\"goodbye!\"));","a":["9","4","8","5"],"correctAns":2,"grade":"b","score":-16.0,"total":70.0}
+{"q":"下列程序段的输出结果是Hello.\u003cbr /\u003emain() { char b[]\u003d\"Hello\"; printf(\"%s\", b ); }","a":["正确","错误"],"correctAns":0,"grade":"b","score":22.0,"total":92.0}
+{"q":"根据下面的定义，能打印出字母M的语句是char name[9]\u003d\u0026quot;Mary\u0026quot;;","a":["printf(\u0026quot;%c\\n\u0026quot;,name[1]);","printf(\u0026quot;%c\\n\u0026quot;,name[2]);","printf(\u0026quot;%c\\n\u0026quot;,name[3]);","printf(\u0026quot;%c\\n\u0026quot;,name[0]);"],"correctAns":3,"grade":"b","score":-16.0,"total":76.0}
+{"q":"下列定义数组的语句中，不正确的是(    )。","a":["float x[2][ ]\u003d{1,2,4,6,8,10};","int x[2][2]\u003d{1,2,3,4};","int m[][3]\u003d{1,2,3,4,5,6};","char a[3][10]\u003d{\u0026quot;China\u0026quot;,\u0026quot;American\u0026quot;,\u0026quot;Asia\u0026quot;};"],"correctAns":0,"grade":"b","score":21.0,"total":97.0}
